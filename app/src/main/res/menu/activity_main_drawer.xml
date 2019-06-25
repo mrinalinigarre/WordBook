@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mywordlist"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="MyWordList" />
+        <item
+            android:id="@+id/nav_favlist"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="BookMark" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="Add" />
+        <item
+            android:id="@+id/nav_word"
+            android:icon="@drawable/ic_check_box_black_24dp"
+            android:title="Word of the Day" />
+    </group>
+</menu>
